@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dance Mode</title>
+
+  <!-- Poppins Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Sekuya Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sekuya&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h3>Practice Mode</h3>
+  <p class="subtitle">github:devbhatnagar-mp4</p>
+  <p class="subtitle">X: d3vbhatnagar</p>
+
+  <button id="mirror">Mirror</button>
+
+  <div class="divider"></div>
+
+  <!--  Updated loop section -->
+  <div class="loop-section">
+    <div class="time-inputs">
+      <input id="start" placeholder="hh:mm:ss">
+      <span class="dash">-</span>
+      <input id="end" placeholder="hh:mm:ss">
+    </div>
+
+    <button id="loop" class="small-btn">Loop</button>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="speed-control">
+    <button id="slow">-</button>
+    <span>Tempo</span>
+    <button id="fast">+</button>
+  </div>
+
+  <div class="divider"></div>
+
+  <button id="off" class="danger">Turn Off</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
